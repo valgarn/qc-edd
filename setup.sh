@@ -23,7 +23,7 @@ fc-cache -fv
 sudo nvidia-persistenced --verbose
 sudo systemctl enable nvidia-persistenced
 
-ssh-keygen -t rsa -b 4096 -C "vgarnaga@suki.ai"
+ssh-keygen -t rsa -b 4096 -C "vgarnaga"
 mkdir -p ~/.ssh
 ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
 # git@github.com:GoogleCloudPlatform/compute-gpu-installation.git
